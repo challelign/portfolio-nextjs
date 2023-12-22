@@ -6,22 +6,21 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
 	return (
-		<div id="home" className="w-full h-screen text-center">
-			<div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center ">
+		<div id="home" className=" w-full h-screen text-center">
+			<div className="max-w-[1240px] w-full h-full mx-auto py-3 flex justify-center items-center ">
 				<div>
-					<p className="uppercase text-4xl tracking-widest text-gray-600 gap-10">
-						LET&#39;S BUILD
-						<span className="text-[#ff4040] font-bold"> SOMETHING</span>{" "}
-						TOGETHER
+					<p className="uppercase text-2xl sm:text-4xl md:text-4xl tracking-widest text-gray-600 gap-10">
+						LET'S BUILD
+						<span className="text-[#ff4040] font-bold">SOMETHING</span> TOGETHER
 					</p>
-					<h1 className="py-4 text-gray-700">
-						Hi, I&#39;m <span className=""> Challelign </span>
+					<h1 className="py-4 text-2xl sm:text-4xl md:text-4xl text-gray-700">
+						Hi, I'm <span className="">Challelign</span>
 					</h1>
-					<h1 className="py-2 text-gray-700">
+					<h1 className="py-2 text-2xl sm:text-4xl md:text-4xl text-gray-700">
 						<span className="text-[#ff4040]">A Full Stack</span> Web Developer
 					</h1>
-					<p className="py-4 text-gray-600 sm:max-w-[70%] m-auto text-xl">
-						I’m Fullstack Developer building responsive front-end and Backend
+					<p className="py-4 text-gray-600 sm:max-w-[70%] md:max-w-[70%] m-auto text-lg sm:text-xl md:text-xl">
+						I’m a Fullstack Developer building responsive front-end and backend
 						web applications integrating back-end technologies.
 					</p>
 					<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
